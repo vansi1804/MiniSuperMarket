@@ -1378,7 +1378,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.BackgroundImage = global::MiniSuperMarket.Properties.Resources.GiaoDienChinh;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1403, 687);
+            this.ClientSize = new System.Drawing.Size(1403, 685);
             this.Controls.Add(this.contextMenuBar1);
             this.Controls.Add(this.tabStrip);
             this.Controls.Add(this.lblTenNguoiDung);
