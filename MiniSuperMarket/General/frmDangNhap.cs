@@ -26,6 +26,9 @@ namespace MiniSuperMarket.General
             this.DialogResult = DialogResult.Cancel;
         }
 
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
