@@ -1346,7 +1346,7 @@
             // 
             this.contextMenuBar1.Items.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonItem2});
-            this.contextMenuBar1.Location = new System.Drawing.Point(82, 314);
+            this.contextMenuBar1.Location = new System.Drawing.Point(83, 315);
             this.contextMenuBar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.contextMenuBar1.Name = "contextMenuBar1";
             this.contextMenuBar1.Size = new System.Drawing.Size(153, 25);
@@ -1378,7 +1378,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.BackgroundImage = global::MiniSuperMarket.Properties.Resources.GiaoDienChinh;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1403, 685);
+            this.ClientSize = new System.Drawing.Size(1403, 683);
             this.Controls.Add(this.contextMenuBar1);
             this.Controls.Add(this.tabStrip);
             this.Controls.Add(this.lblTenNguoiDung);

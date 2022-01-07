@@ -76,15 +76,9 @@ namespace MiniSuperMarket
             m_FrmDangNhap.txtPass.Text = "";
             m_FrmDangNhap.lbErrorPass.Text = "";
             m_FrmDangNhap.lbErrorUserName.Text = "";
-
             DangNhap();
         }
 
-        private void btnDangXuat_Click(object sender, EventArgs e)
-        {
-            Default();
-            lblTenNguoiDung.Text = "Bạn cần đăng nhập để sử dụng phần mềm";
-        }
 
         public void DangNhap()
         {
@@ -128,6 +122,22 @@ namespace MiniSuperMarket
                 }
             }
 
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            Default();
+            ClosingOpeningForm();
+            lblTenNguoiDung.Text = "Bạn cần đăng nhập để sử dụng phần mềm";
+        }
+
+        public void ClosingOpeningForm()
+        {
+            for (int i = Application.OpenForms.Count - 1; i >= 0; i--)
+            {
+                if (Application.OpenForms[i].Name != "frmMain")
+                    Application.OpenForms[i].Close();
+            }
         }
 
         public void Default()

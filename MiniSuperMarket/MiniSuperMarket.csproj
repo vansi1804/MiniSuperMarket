@@ -252,6 +252,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <EmbeddedResource Include="1_GUI\frmDatHang.resx">
       <DependentUpon>frmDatHang.cs</DependentUpon>
       <SubType>Designer</SubType>
