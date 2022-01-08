@@ -114,6 +114,7 @@
             // 
             // ribbonControl
             // 
+            this.ribbonControl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             // 
             // 
             // 
@@ -141,7 +142,7 @@
             this.ribbonControl.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
             this.ribbonControl.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.buttonFile});
-            this.ribbonControl.Size = new System.Drawing.Size(1393, 237);
+            this.ribbonControl.Size = new System.Drawing.Size(1414, 237);
             this.ribbonControl.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ribbonControl.SystemText.MaximizeRibbonText = "&Maximize the Ribbon";
             this.ribbonControl.SystemText.MinimizeRibbonText = "Mi&nimize the Ribbon";
@@ -173,7 +174,7 @@
             this.ribbonPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ribbonPanel1.Name = "ribbonPanel1";
             this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(4, 0, 4, 5);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1393, 175);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1414, 175);
             // 
             // 
             // 
@@ -1314,7 +1315,7 @@
             this.lblTenNguoiDung.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.lblTenNguoiDung.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenNguoiDung.ForeColor = System.Drawing.Color.Red;
-            this.lblTenNguoiDung.Location = new System.Drawing.Point(1294, 45);
+            this.lblTenNguoiDung.Location = new System.Drawing.Point(1075, 45);
             this.lblTenNguoiDung.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lblTenNguoiDung.Name = "lblTenNguoiDung";
             this.lblTenNguoiDung.Size = new System.Drawing.Size(364, 35);
@@ -1336,7 +1337,7 @@
             this.tabStrip.Name = "tabStrip";
             this.tabStrip.SelectedTab = null;
             this.tabStrip.SelectedTabFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            this.tabStrip.Size = new System.Drawing.Size(1393, 38);
+            this.tabStrip.Size = new System.Drawing.Size(1414, 38);
             this.tabStrip.Style = DevComponents.DotNetBar.eTabStripStyle.Office2007Document;
             this.tabStrip.TabIndex = 6;
             this.tabStrip.TabLayoutType = DevComponents.DotNetBar.eTabLayoutType.FixedWithNavigationBox;
@@ -1378,7 +1379,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.BackgroundImage = global::MiniSuperMarket.Properties.Resources.GiaoDienChinh;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1403, 683);
+            this.ClientSize = new System.Drawing.Size(1424, 681);
             this.Controls.Add(this.contextMenuBar1);
             this.Controls.Add(this.tabStrip);
             this.Controls.Add(this.lblTenNguoiDung);

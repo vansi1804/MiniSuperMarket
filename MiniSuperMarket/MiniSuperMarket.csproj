@@ -598,12 +598,12 @@
     <None Include="DataSet\DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.DatHangInfo1.datasource" />
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.DoanhThuInfo.datasource" />
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.MatHangInfo.datasource" />
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.NhanVienInfo.datasource" />
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.TonKhoInfo.datasource" />
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.XuatHangInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.DatHangInfo1.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.DoanhThuInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.MatHangInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.NhanVienInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.TonKhoInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.XuatHangInfo.datasource" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Shopping-Cart-World-128.png" />
@@ -618,7 +618,7 @@
     <None Include="Resources\Shopping-Cart-World-1281.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\DataSources\QuanLyBanHang.Bussiness.NhapHangInfo.datasource" />
+    <None Include="Properties\DataSources\MiniSuperMarket.BLL.NhapHangInfo.datasource" />
     <None Include="Resources\Shopping-Credit-Card-128.png" />
   </ItemGroup>
   <ItemGroup>
