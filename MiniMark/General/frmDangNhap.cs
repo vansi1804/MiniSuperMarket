@@ -28,7 +28,8 @@ namespace MiniMark.General
 
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
-
+            txtUserName.Text = "admin";
+            txtPass.Text = "admin";
         }
     }
 }

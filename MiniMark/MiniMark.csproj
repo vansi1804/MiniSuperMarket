@@ -243,7 +243,7 @@
     <Compile Include="General\frmFlash.Designer.cs">
       <DependentUpon>frmFlash.cs</DependentUpon>
     </Compile>
-    <Compile Include="General\ThamSo.cs" />
+    <Compile Include="General\XuLy.cs" />
     <Compile Include="1_GUI\frmNhaCungCap.cs">
       <SubType>Form</SubType>
     </Compile>

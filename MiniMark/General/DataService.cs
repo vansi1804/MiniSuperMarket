@@ -42,7 +42,7 @@ namespace MiniMark.General
                 {
                     m_ConnectString = "Data Source=" + XmlElement.SelectSingleNode("servername").InnerText + ";Initial Catalog=" + XmlElement.SelectSingleNode("database").InnerText + ";User Id=" + XmlElement.SelectSingleNode("username").InnerText + ";Password=" + XmlElement.SelectSingleNode("password").InnerText + ";";
                 }
-                ThamSo.DatabaseName = XmlElement.SelectSingleNode("database").InnerText;
+                XuLy.DatabaseName = XmlElement.SelectSingleNode("database").InnerText;
             }
             catch
             {

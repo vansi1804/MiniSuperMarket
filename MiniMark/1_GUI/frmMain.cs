@@ -387,7 +387,7 @@ namespace MiniMark
         {
             if (backupDialog.ShowDialog() == DialogResult.OK)
             {
-                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("BACKUP DATABASE " + ThamSo.DatabaseName + " TO DISK = '" + backupDialog.FileName.ToString() + "'");
+                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("BACKUP DATABASE " + XuLy.DatabaseName + " TO DISK = '" + backupDialog.FileName.ToString() + "'");
                 DataService data = new DataService();
                 data.Load(cmd);
                 MessageBoxEx.Show("Sao lưu dữ liệu thành công!", "BACKUP COMPLETED", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -400,7 +400,7 @@ namespace MiniMark
         {
             if (restoreDialog.ShowDialog() == DialogResult.OK)
             {
-                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("BACKUP DATABASE " + ThamSo.DatabaseName + " TO DISK = '" + backupDialog.FileName.ToString() + "'");
+                System.Data.SqlClient.SqlCommand cmd = new System.Data.SqlClient.SqlCommand("BACKUP DATABASE " + XuLy.DatabaseName + " TO DISK = '" + backupDialog.FileName.ToString() + "'");
                 DataService data = new DataService();
                 data.Load(cmd);
                 MessageBoxEx.Show("Sao lưu dữ liệu thành công!", "BACKUP COMPLETED", MessageBoxButtons.OK, MessageBoxIcon.Information);

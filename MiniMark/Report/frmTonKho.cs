@@ -28,6 +28,7 @@ namespace MiniMark.Report
             m_TonKhoCtrl.HienThiComboBox1(cmbNam);
         }
 
+
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();

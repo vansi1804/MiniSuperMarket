@@ -13,13 +13,13 @@ namespace MiniMark.DataLayer
         DataService m_TonKhoData = new DataService();
         public DataTable LayTonKho()
         {
-            SqlCommand cmd = new SqlCommand("SELECT * FROM TonKho");
+            SqlCommand cmd = new SqlCommand("SELECT DISTINCT  * FROM TonKho");
             m_TonKhoData.Load(cmd);
             return m_TonKhoData;
         }
         public DataTable LayDSTonKhoTheoThang(int thang, int nam)
         {
-            SqlCommand cmd = new SqlCommand("SELECT MH.MaMH, TK.[Mã Mặt Hàng], Tk.[Tên Mặt Hàng], TK.Tháng, TK.Năm, TK.[Tồn Kho] FROM TonKho TK INNER JOIN Mat_Hang MH ON MH.MaMH = TK.[Mã Mặt Hàng] AND MH.TenMH = TK.[Tên Mặt Hàng] WHERE TK.Tháng = @Tháng AND TK.Năm = @Năm");
+            SqlCommand cmd = new SqlCommand("SELECT  MH.MaMH, TK.[Mã Mặt Hàng], Tk.[Tên Mặt Hàng], TK.Tháng, TK.Năm, TK.[Tồn Kho] FROM TonKho TK INNER JOIN Mat_Hang MH ON MH.MaMH = TK.[Mã Mặt Hàng] AND MH.TenMH = TK.[Tên Mặt Hàng] WHERE TK.Tháng = @Tháng AND TK.Năm = @Năm");
             cmd.Parameters.Add("Tháng", SqlDbType.Int).Value = thang;
             cmd.Parameters.Add("Năm", SqlDbType.Int).Value = nam;
             m_TonKhoData.Load(cmd);

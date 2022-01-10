@@ -1379,7 +1379,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(217)))), ((int)(((byte)(247)))));
             this.BackgroundImage = global::MiniMark.Properties.Resources.GiaoDienChinh;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1424, 752);
+            this.ClientSize = new System.Drawing.Size(1424, 750);
             this.Controls.Add(this.contextMenuBar1);
             this.Controls.Add(this.tabStrip);
             this.Controls.Add(this.lblTenNguoiDung);
